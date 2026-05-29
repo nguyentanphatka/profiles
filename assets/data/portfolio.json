@@ -1,0 +1,291 @@
+{
+  "_comment": "Single source of truth for portfolio UI data. Edit this file to update content.",
+
+  "home": {
+    "name": "Phat Nguyen",
+    "alias": "seeZ",
+    "role": ".NET Web Developer",
+    "roles": [
+      ".NET Developer",
+      "Full Stack Engineer",
+      "C# & ASP.NET Specialist",
+      "Web Developer",
+      "AI Engineer",
+      "Open to Freelance"
+    ],
+    "experience": "6.5 years",
+    "location": "Ho Chi Minh City",
+    "stack": ["C#", "ASP.NET", "React", "SQL", "PostgreSQL", "MongoDB", "Azure"],
+    "available": true,
+    "codeCardFilename": "developer.cs",
+    "photo": "assets/img/profile-phat-nguyen.jpg",
+    "photoMobile": "assets/img/profile-mobile-phat-nguyen.jpg",
+    "intro": ".NET developer · 6.5 years building web systems with C#, ASP.NET Core, ReactJS and cloud-native tools. I write clean APIs, ship real products, and care about maintainable code.",
+    "seek": "Open to full-time & freelance roles — .NET / Full-Stack / Remote"
+  },
+
+  "personalInfo": [
+    {
+      "id": 11,
+      "data": [
+        { "id": 1, "type": "First Name", "value": "Phat" },
+        { "id": 2, "type": "Last Name", "value": "Nguyen Tan" },
+        { "id": 3, "type": "Age", "value": "28 Years" },
+        { "id": 4, "type": "Nationality", "value": "Viet Nam" },
+        { "id": 5, "type": "Freelance", "value": "Available" }
+      ]
+    },
+    {
+      "id": 12,
+      "data": [
+        { "id": 6, "type": "Address", "value": "Hiep Binh Chanh - Thu Duc - Ho Chi Minh City" },
+        { "id": 7, "type": "Phone", "value": "(+84) 869 164 648" },
+        { "id": 8, "type": "Email", "value": "nguyentanphatuit@gmail.com" },
+        { "id": 9, "type": "Skype", "value": "live:nguyentanphatuit" },
+        { "id": 10, "type": "Langages", "value": "Vietnamese, English" }
+      ]
+    }
+  ],
+
+  "stats": [
+    { "id": 1, "title": "Years of <span className=\"block\">.NET experience</span>", "value": "5.5" },
+    { "id": 2, "title": "Years of <span className=\"block\">working experience</span>", "value": "6.5" },
+    { "id": 3, "title": "Number of companies worked at", "value": "5" },
+    { "id": 4, "title": "Last role working<span className=\"block\">company</span>", "value": "VIB" }
+  ],
+
+  "techStack": [
+    { "id": 1, "title": "C#, ASP.NET, .NET framework, .NET core, EF core, MVC, WebApi", "value": "Backend" },
+    { "id": 2, "title": "HTML, CSS, JavaScript, ReactJS, Redux", "value": "Frontend" },
+    { "id": 3, "title": "MS SQL, MySQL, Postgres and MongoDB <span className=\"block\">(able to design and optimize database)</span>", "value": "Database" },
+    { "id": 4, "title": "Azure clound <span className=\"block\"></span>", "value": "Clound" },
+    { "id": 5, "title": "Software Development Methodology", "value": "Agile & Scrum" }
+  ],
+
+  "experience": [
+    {
+      "id": 1,
+      "date": "Aug 2025 - Now",
+      "title": "VIB",
+      "company": ".NET Developer",
+      "projectName": "Senior .NET developer",
+      "desc": "Implements new features, unit tests, maintains and troubleshoots web applications. Comply with established coding quality standards. Work closely with the QA team to ensure project quality.",
+      "be": "C# .NET6, Microservice, gRPC, RabbitMQ, Rest API, Dapper",
+      "fe": "None",
+      "db": "PostgreSQL, SQL Server",
+      "clound": "Azure cloud, Azure functions, Azure web job, Azure service Bus, Redis caching",
+      "color": "blue",
+      "points": [
+        "Built microservices with gRPC & RabbitMQ on Azure Service Bus",
+        "Backend stack: C# .NET 6, Dapper, PostgreSQL, SQL Server",
+        "Cloud: Azure Functions, Azure Web Job, Redis Caching"
+      ]
+    },
+    {
+      "id": 2,
+      "date": "Aug 2024 - Aug 2025",
+      "title": "iZOTA",
+      "company": ".NET Developer",
+      "projectName": "iZOTA super application",
+      "desc": "Developed super-app backend with C# .NET 8 & Ocelot API Gateway. Implemented microservices using gRPC, EF Core, UoW / Repository patterns. Database: PostgreSQL; architecture: NLayer with DI.",
+      "be": "C# .NET8, Microservice, gRPC, oncelot, Rest API, EF Core, NLayer apply in Microservice, Repository, Unit of Work (UoW), Dependency Injection(DI),...",
+      "fe": "None",
+      "db": "PostgreSQL",
+      "clound": "",
+      "color": "teal",
+      "points": [
+        "Developed super-app backend with C# .NET 8 & Ocelot API Gateway",
+        "Implemented microservices using gRPC, EF Core, UoW / Repository patterns",
+        "Database: PostgreSQL; architecture: NLayer with DI"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "Mar 2024 - Jun 2024",
+      "title": "Freelancer",
+      "company": ".NET Developer",
+      "projectName": "Freelance .NET Web API",
+      "desc": "Freelance .NET Web API project: tailored solutions, estimate, break tasks and implement to customer requirements",
+      "be": "C# .NET8",
+      "fe": "",
+      "db": "MSSQL SERVER",
+      "clound": "",
+      "color": "purple",
+      "points": [
+        "Delivered freelance .NET 8 Web API project end-to-end",
+        "Handled requirement analysis, task breakdown and estimation",
+        "Database: MSSQL Server"
+      ]
+    },
+    {
+      "id": 4,
+      "date": "Oct 2022 - Dec 2023",
+      "title": "Stepmedia Software",
+      "company": ".NET Developer",
+      "projectName": "Levvia application of Deloitte",
+      "desc": "Implements new features, unit tests, maintains and troubleshoots web applications. Comply with established coding quality standards. Work closely with the QA team to ensure project quality.",
+      "be": "C# .NET Core, .NET Framework, Rest API, EF Core, NLayer apply in Microservice, Repository, Unit of Work (UoW), Dependency Injection(DI),...",
+      "fe": "HTML, JavaScript, ReactJS render UI",
+      "db": "MSSQL SERVER",
+      "clound": "Azure cloud, Azure Functions, Azure Web Job, Azure Service Bus, Redis caching",
+      "color": "sky",
+      "points": [
+        "Built & maintained features for Deloitte's Levvia application",
+        "Stack: C# .NET Core/Framework, EF Core, Microservice, UoW/Repository",
+        "Azure: Functions, Web Job, Service Bus, Redis; frontend: ReactJS"
+      ]
+    },
+    {
+      "id": 5,
+      "date": "Jun 2020 - Jun 2022",
+      "title": "Global Vertical Innovations, LLC",
+      "company": ".NET Developer",
+      "projectName": "RIVIR web-based application",
+      "desc": "Joined to develop an E-Commerce system: analysis, design infrastructure, break tasks, estimate and implement integrations.",
+      "be": ".NET Core, EF Core, Hangfire, Serilog, RestSharp, Identity Server4, Elasticsearch, Logstash, Kibana, NLayer, Mediator, Factory, Dependency Injection (DI), Dapper, EF Core",
+      "fe": "",
+      "db": "MSSQL SERVER, MongoDB",
+      "clound": "Google Cloud Platform",
+      "color": "orange",
+      "points": [
+        "Developed E-Commerce platform (RIVIR) from infra design to delivery",
+        "Stack: .NET Core, Identity Server 4, Elasticsearch/Kibana, Hangfire",
+        "Databases: MSSQL + MongoDB; Cloud: Google Cloud Platform"
+      ]
+    },
+    {
+      "id": 6,
+      "date": "Dec 2018 - Mar 2020",
+      "title": "FPT Software HCM",
+      "company": ".NET Developer",
+      "projectName": "M35 Web ERP",
+      "desc": "Programmed web applications for ERP project, wrote Web APIs, collaborated with UI designers, maintained and upgraded SQL procedures.",
+      "be": ".NET framework, MVC, 3-Tier, 3-Layer",
+      "fe": "Angular, HTML, CSS",
+      "db": "MSSQL SERVER, Oracle",
+      "clound": "",
+      "color": "red",
+      "points": [
+        "Built ERP web modules with ASP.NET MVC, 3-Tier architecture",
+        "Wrote & optimised SQL stored procedures (MSSQL, Oracle)",
+        "Frontend: Angular + HTML/CSS; collaborated with UI design team"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "id": 1,
+      "date": "Jun 2018 - Oct 2018",
+      "title": "FPT SOFTWARE ACADEMY",
+      "unv": "Fresher .NET Degree",
+      "desc": "C135: FPT Software Academy is the largest internal IT training institute of FPT Software in Vietnam. Proudly serving as a solid career launching pad for 3,000 to 6,000 IT professionals, the academy provides comprehensive training and development opportunities to support their career growth."
+    },
+    {
+      "id": 2,
+      "date": "2015 - 2020",
+      "title": "UNIVERSITY OF INFOMATION TECHNOLOGY (UIT)",
+      "unv": "Software Engineering Degree",
+      "desc": "The University of Information Technology (UIT), part of Vietnam National University-Ho Chi Minh City (VNU-HCM), is a prestigious public university specializing in information and communication technology. Established on June 8, 2006, UIT is committed to delivering high-quality IT education and contributing significantly to the advancement of Vietnam's IT industry."
+    }
+  ],
+
+  "skills": [
+    { "id": 1, "name": "C#/ASP.NET", "value": "85" },
+    { "id": 2, "name": "html", "value": "50" },
+    { "id": 3, "name": "javascript", "value": "50" },
+    { "id": 4, "name": "css", "value": "50" },
+    { "id": 5, "name": "reactjs", "value": "65" },
+    { "id": 6, "name": "database & optimization", "value": "80" },
+    { "id": 7, "name": "Data Structures and Algorithms", "value": "80" },
+    { "id": 8, "name": "Quick Learner and Skilled Researcher", "value": "80" },
+    { "id": 9, "name": "Good communication teamwork", "value": "100" }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Blue-All rise",
+      "type": "youtube",
+      "src": "https://www.youtube.com/embed/RkWQDDv_qdg?si=rKYsGLqSZf-pa2Ek",
+      "img": "assets/img/projects/blue.jpg",
+      "project": "Website",
+      "client": "youtube",
+      "langages": "HTML, CSS, Javascript",
+      "previewLink": "www.youtube.com"
+    },
+    {
+      "id": 2,
+      "title": "Alexander Rybak - OAH",
+      "type": "youtube",
+      "src": "https://www.youtube.com/embed/o4sfh2u8cgU?si=9cYOkBr4mZiw2iUw",
+      "img": "assets/img/projects/alx.jpg",
+      "project": "Website",
+      "client": "youtube",
+      "langages": "HTML, CSS, Javascript",
+      "previewLink": "www.youtube.com"
+    }
+  ],
+
+  "socialLinks": [
+    { "id": 1, "icon": "fa fa-facebook", "link": "https://www.facebook.com/nguyentanphatuit/" },
+    { "id": 2, "icon": "fa fa-linkedin", "link": "https://www.linkedin.com/in/seeZ/" },
+    { "id": 3, "icon": "fa fa-github", "link": "https://github.com/nguyentanphataka" }
+  ],
+
+  "footer": {
+    "name": "Phat Nguyen Tan",
+    "tagline": ".NET Web Developer — Ho Chi Minh City",
+    "email": "nguyentanphatuit@mail.com",
+    "phone": "(+84) 869 164 648",
+    "copyright": "2026 Phat Nguyen Tan. All rights reserved."
+  },
+
+  "hobbies": [
+    { "icon": "⚽", "label": "Football",  "desc": "Weekend 5-a-side & watching Premier League" },
+    { "icon": "🎮", "label": "Gaming",    "desc": "Strategy & open-world RPGs on PC" },
+    { "icon": "🥊", "label": "Boxing",    "desc": "Bag work & shadow boxing for fitness" }
+  ],
+
+  "homeTechStack": [
+    {
+      "color": "blue",
+      "techs": [
+        { "name": ".NET 8",           "primary": true  },
+        { "name": "C#",               "primary": true  },
+        { "name": "ASP.NET Core",     "primary": true  },
+        { "name": "Web API",          "primary": false },
+        { "name": "Entity Framework", "primary": false },
+        { "name": "SignalR",          "primary": false },
+        { "name": "Microservices",    "primary": false },
+        { "name": "gRPC",             "primary": false },
+        { "name": "MediatR",          "primary": false },
+        { "name": "AutoMapper",       "primary": false }
+      ]
+    },
+    {
+      "color": "sky",
+      "techs": [
+        { "name": "ReactJS",      "primary": true  },
+        { "name": "Redux",        "primary": false },
+        { "name": "TypeScript",   "primary": true  },
+        { "name": "JavaScript",   "primary": false },
+        { "name": "Next.js",      "primary": false },
+        { "name": "Tailwind CSS", "primary": false },
+        { "name": "HTML5",        "primary": false },
+        { "name": "CSS3",         "primary": false }
+      ]
+    },
+    {
+      "color": "purple",
+      "techs": [
+        { "name": "MS SQL",        "primary": true  },
+        { "name": "PostgreSQL",    "primary": true  },
+        { "name": "MongoDB",       "primary": true  },
+        { "name": "Redis",         "primary": false },
+        { "name": "Elasticsearch", "primary": false },
+        { "name": "SQLite",        "primary": false }
+      ]
+    }
+  ]
+}
